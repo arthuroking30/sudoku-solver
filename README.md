@@ -2,6 +2,9 @@
 
 This project is a Python-based Sudoku solver inspired by [Computerphile's video on building a Python Sudoku solver](https://www.youtube.com/watch?v=G_UYXzGuqvM). It combines computer vision techniques to extract Sudoku puzzles from images and uses a recursive backtracking algorithm to solve them. OpenCV is used for image processing, while TensorFlow OCR is leveraged to read the digits from captured images.
 
+<img src="https://github.com/user-attachments/assets/793e845f-fd0b-47be-83b6-2465dd5dad21" alt="Description" width="500" height="500"/>
+<img src="https://github.com/user-attachments/assets/452c939a-774d-4b68-b8f8-b24fcdb545c1" alt="Description" width="400" height="500"/>
+
 ## Features
 
 - **Computer Vision for Puzzle Recognition**: Uses OpenCV to detect the Sudoku grid from an image.
@@ -78,5 +81,4 @@ The backtracking solver uses recursion:
 1. Place a candidate number in an empty cell and check for validity.
 2. Recursively proceed; if a conflict arises, backtrack by removing the last number.
 3. Continue until all cells are validly filled.
-<img src="https://github.com/user-attachments/assets/793e845f-fd0b-47be-83b6-2465dd5dad21" alt="Description" width="500" height="500"/>
-<img src="https://github.com/user-attachments/assets/452c939a-774d-4b68-b8f8-b24fcdb545c1" alt="Description" width="400" height="500"/>
+
