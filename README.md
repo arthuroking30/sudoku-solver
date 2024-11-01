@@ -79,5 +79,4 @@ The backtracking solver uses recursion:
 2. Recursively proceed; if a conflict arises, backtrack by removing the last number.
 3. Continue until all cells are validly filled.
 <img src="https://github.com/user-attachments/assets/793e845f-fd0b-47be-83b6-2465dd5dad21" alt="Description" width="400"/>
-![Screenshot 2024-10-31 125641](https://github.com/user-attachments/assets/793e845f-fd0b-47be-83b6-2465dd5dad21)
-![Screenshot 2024-11-01 163706](https://github.com/user-attachments/assets/452c939a-774d-4b68-b8f8-b24fcdb545c1)
+<img src="https://github.com/user-attachments/assets/452c939a-774d-4b68-b8f8-b24fcdb545c1" alt="Description" width="400"/>
